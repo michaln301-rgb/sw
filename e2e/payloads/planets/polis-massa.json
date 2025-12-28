@@ -1,0 +1,27 @@
+{
+  "message": "ok",
+  "result": [
+    {
+      "properties": {
+        "created": "2025-12-28T15:25:59.483Z",
+        "edited": "2025-12-28T15:25:59.483Z",
+        "climate": "artificial temperate",
+        "surface_water": "0",
+        "name": "Polis Massa MOCKED",
+        "diameter": "0",
+        "rotation_period": "24",
+        "terrain": "airless asteroid",
+        "gravity": "0.56 standard",
+        "orbital_period": "590",
+        "population": "1000000",
+        "url": "https://www.swapi.tech/api/planets/15"
+      },
+      "_id": "5f7254c11b7dfa00041c6fbc",
+      "description": "A planet.",
+      "uid": "15",
+      "__v": 2
+    }
+  ],
+  "apiVersion": "1.0",
+  "timestamp": "2025-12-28T18:52:03.098Z"
+}

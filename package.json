@@ -1,0 +1,27 @@
+{
+  "name": "e2e",
+  "private": true,
+
+  "engines": {
+    "node": ">=18 <=20"
+  },
+
+  "scripts": {
+    "test:e2e": "playwright test --grep @SMOKE --project=Chrome --workers=1 --output=playwright-report",
+    "test:contract": "playwright test --grep @CONTRACT --workers=1",
+    "test:api": "playwright test --grep @API --project=Chrome --workers=1",
+    "postinstall": "npm dedupe"
+  },
+
+  "dependencies": {
+    "@playwright/test": "^1.48.2",
+    "playwright": "^1.48.2",
+
+    "adm-zip": "0.5.16",
+    "allure-playwright": "^3.0.0-beta.3",
+    "playwright-slack-report": "^1.1.81",
+    "winston": "^3.13.0"
+  }
+
+
+}
